@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ClawController : MonoBehaviour
 {
+    
+    //This for left contoller.
     private float sensitivity;
     private Vector3 firstPos;
     private Vector3 mouseReference;

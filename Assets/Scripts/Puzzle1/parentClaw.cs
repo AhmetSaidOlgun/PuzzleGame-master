@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class parentClaw : MonoBehaviour
 {
+    //This is the script that listens the information comes from ClawController1 and ClawController2
+    
     private int speed = 5;
     public GameObject Button;
     

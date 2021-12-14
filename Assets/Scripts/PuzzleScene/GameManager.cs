@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     
     private void Update()
     {
+        
+        
         if(AreaEntering.clawAreaEntering == true && Input.GetKeyDown("f"))
         {
            

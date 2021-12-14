@@ -78,6 +78,9 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
 
+        
+        
+        //I made a walk animation but did not like it. Still you can use it.
         //if(Input.GetKeyDown("w") || Input.GetKeyDown("d") || Input.GetKeyDown("s") || Input.GetKeyDown("a"))
         //{
         //    playerCamera.GetComponent<Animator>().Play("PlayerMove");

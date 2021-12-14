@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CarMovement : MonoBehaviour
 {
+    
+    //In this script, I used empty game objects and gave them colliders and set them as a trigger. When the car enters the triggers, it changes its rotation or getting destroyed. 
     public static bool puzzleTwoSuccessfull;
     public static bool puzzleTwoFail;
     private float SpeedX;

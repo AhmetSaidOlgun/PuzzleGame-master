@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Car : MonoBehaviour
 {
+    
+    //There was a problem about car position, so I solved it like this. Maybe you can create better script.
+    
     public static bool carExit;
     public GameObject carTakeText;
     public static bool carOnTheGround;

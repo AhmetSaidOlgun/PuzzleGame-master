@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ClawMovement : MonoBehaviour
 {
+    
+    //In this script we are controlling the child claw. We are playing the claw animation when the button is pressed. If it touches the car, the car is sticking to claw. If e pressed, we releases the car.
+    //we don't use go left, right, up or down commands in this script. We are using them in the parentClaw script.
+
+    
+    
+    
     private int speed = 1;
 
     public GameObject Claw;   

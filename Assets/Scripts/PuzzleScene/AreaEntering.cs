@@ -23,6 +23,8 @@ public class AreaEntering : MonoBehaviour
     {
       
     }
+    
+    //These are the conditions that you can enter the scenes. For now, collecting money algorithm did not finish. Probably, I will change the "coin" script and apply to the project.
 
     private void OnTriggerEnter(Collider other)
     {

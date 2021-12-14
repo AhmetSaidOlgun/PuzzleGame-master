@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+//This is the cable script. I was looking for better solution but you can use these codes to. We are using line renderer component to create cables. 
 public class CableScript : MonoBehaviour
 {
     public LineRenderer cable1;

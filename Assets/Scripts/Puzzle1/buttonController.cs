@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class buttonController : MonoBehaviour
 {
+    
+    //In this script, we can control the button in the claw machine.
+   
+    
     private Vector3 startPos;
     public static bool buttonPresed;
 
@@ -25,6 +29,6 @@ public class buttonController : MonoBehaviour
     private IEnumerator ButtonPress()
     {        
             yield return new WaitForSeconds(1);
-             transform.position = startPos;       
+            transform.position = startPos;       
     }
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FootStep : MonoBehaviour
 {
+    
+    //this is the script that we are generating food steps. 
     private CharacterController cc;
     
     private AudioSource source;

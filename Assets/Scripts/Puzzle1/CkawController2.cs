@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CkawController2 : MonoBehaviour
 {
+    
+    //This script is for right contoller in the claw machine. Thomas wanted me to control them with mouse, this is why I used on mouse click. 
+    
+    
     private float sensitivity;
     private Vector3 firstPos;
     private Vector3 mouseReference;
